@@ -19,10 +19,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             return true
         }
         
-        appCoordinator = AppCoordinator(with: window)
+        appCoordinator = AppCoordinator()
         window.rootViewController = appCoordinator?.viewController
-        window.makeKeyAndVisible()
         appCoordinator?.start()
+        window.makeKeyAndVisible()
         
         return true
     }
