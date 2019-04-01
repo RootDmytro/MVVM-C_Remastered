@@ -135,7 +135,6 @@
 			children = (
 				5C0006DF224E1DAF00C265D8 /* AppDelegate.swift */,
 				5C000723224E1FF700C265D8 /* Coordinator.swift */,
-				5C00070D224E1DED00C265D8 /* AppCoordinator.swift */,
 				5C00070F224E1E0300C265D8 /* AppContainer.swift */,
 				5C00072D224E510600C265D8 /* SomeService.swift */,
 				5C00072F224E5B2D00C265D8 /* Observable.swift */,
@@ -171,6 +170,7 @@
 		5C000713224E1E8300C265D8 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				5C00070D224E1DED00C265D8 /* AppCoordinator.swift */,
 				5C000718224E1ED700C265D8 /* Menu */,
 				5C00071C224E1F5C00C265D8 /* Number */,
 				5C00071B224E1F2E00C265D8 /* String */,

@@ -27,9 +27,9 @@ class AppCoordinator: Coordinator {
         
         let menu = MenuCoordinator(parent: self, container: container)
         add(subcoordinator: menu, presentationWith: { controller in
-            navigationController.pushViewController(controller, animated: true)
+            navigationController.viewControllers = [controller]
         }, dismissalWith: { controller in
-            navigationController.popViewController(animated: true)
+            assertionFailure("this should probably never happen")
         })
     }
 }
